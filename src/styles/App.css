@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: rgba(0, 0, 0, 0.945);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  
+}
+
+.body{
+  background-color: rgba(0, 0, 0, 0.945);
+  border-radius: 5px;
+  box-shadow: 0 0 0.5em #FFF3F6;
+  color: #28C7B9;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px 20px 0 20px;
+  text-align: center; 
+  margin: -5rem 0 5rem 0;
+  
+  
+}
+
+h3{
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 5rem 0 5rem;
+}
+
+.gato{
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  z-index: 5;
+}
+
+.rainhas #rainha1{
+
+  
+  margin-top: 20px;
+}
+
+.rainhas #rainha2{
+  margin-bottom: -3rem;
+ 
+  margin-top: 20px;
+}
+.rainhas{
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+  
+  
+}
